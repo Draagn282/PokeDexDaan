@@ -4,8 +4,8 @@ import './App.css';
 import Pokemon from './Pokemon';
 import 'reactjs-popup/dist/index.css';
 
-import PocketMonster from "./PocketMonster";
-import {Link, BrowserRouter ,Routes, Route} from "react-router-dom";
+
+
 
 const App = () => {
 
@@ -28,18 +28,11 @@ const App = () => {
 
   return (
     <div className="App">
+      <h1 className='Title'>POKEMON</h1>
+      <p>Click on the pokemon to learn more!</p>
       <div className="dex">
-        <BrowserRouter>
-        <Routes>
-              <Route path="/PocketMonster" element={<PocketMonster/>}/>
-        </Routes>
-              
-              <Link to="/PocketMonster">details</Link>
-              <Link to="/App">index</Link>
-        </BrowserRouter>
- 
-
-          {pokemon.map((pokemon, index) =>
+        
+        {pokemon.map((pokemon, index) =>
           ( <Pokemon key={index} pokemon={pokemon} />)
           )}
         </div>
