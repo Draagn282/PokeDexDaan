@@ -1,0 +1,123 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url(./assets/img/Background.jpg);
+  background-size:cover;
+    background-attachment: fixed;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.dex{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.pokemon_cube{
+  width: 200px;
+  height: 200px;
+  background-color: #00ffff4c;
+  border-radius: 30px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cube_image, .cube_image img{
+  width: 150px;
+}
+
+.cube_name{
+  width: 90%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffffb9;
+  border-radius: 50px;
+  border: solid #646464;
+}
+
+.cube_name p{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #666666;
+  font-size: 20px;
+}
+
+.popup-content {
+  margin: auto;
+  background: #04fff2df;
+  width: 100%;
+  padding: 5px;
+}
+.popup-arrow {
+  color: #e71818a7;
+  border: none;
+  stroke: none;
+}
+[role=tooltip].popup-content {
+  position: fixed;
+  z-index: 10000;
+  width: 350px;
+  height: 200px;
+  box-shadow: none;
+  border: solid 2px #e71818a7;
+  border-radius: 20px;
+}
+
+.popup-overlay {
+  background: rgba(0, 0, 0, 0.5);
+}
+[data-popup='tooltip'].popup-overlay {
+  background: transparent;
+}
+
+.popup_content_custom{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  width: 100%;
+  height: 100%;
+}
+
+.popup_content_custom p{
+  font-weight: 500;
+  color: black;
+}
+
+.mon_div{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+
+}
+.mon_images_div{
+  width: 50%;
+  height: 100vh;
+  display: flex;
+}
+.mon_stats_div{
+  width: 50%;
+  height: 100vh;
+  display: flex;
+}
+
+
