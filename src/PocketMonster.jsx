@@ -6,7 +6,7 @@ const pocketMonster = () =>{
             <p>Here you can learn about the pokedex! (totaly not stolen from the wiki!)</p>
             <h1 className='Title'>Hello! </h1>
             
-                <p>Sorry to keep you waiting! Welcome to the world of Pokémon!
+                <p className='font-bold font-se'>Sorry to keep you waiting! Welcome to the world of Pokémon!
                 My name is Oak. People call me the Pokémon Prof. This world is inhabited by creatures that we call Pokémon.
                 People and Pokémon live together by supporting each other. Some people play with Pokémon, some battle with them.
                 But we don't know everything about Pokémon yet. There are still many mysteries to solve.
@@ -14,9 +14,9 @@ const pocketMonster = () =>{
                 Your very own Pokémon story is about to unfold. You'll face fun times and tough challenges.
                 A world of dreams and adventures with Pokémon awaits! Let's go! I'll be seeing you later!</p>
 
-                <h1>The pokedex</h1>
-
-                <p>In the video games, whenever a Pokémon is first captured, its data will be added to a player's Pokédex. People who have an Action Replay can use a cheat so they can get all Pokédex entries without even having the Pokémon. In the Pokémon anime, the Pokédex is a comprehensive, electronic, reference encyclopedia, usually referred to in order to deliver information necessary to the plot. There are four differently-numbered Pokédex modes to date: the Kanto Pokédex, introduced in Pokémon Red and Blue; the Johto Pokédex, introduced in Pokémon Gold and Silver; the Hoenn Pokédex, introduced in Pokémon Ruby and Sapphire and expanded upon in Pokémon FireRed and LeafGreen; and the Sinnoh Pokédex, introduced in Pokémon Diamond and Pearl, the Unova Pokédex, introduced in Pokémon Black and White and updated in Pokémon Black 2 and White 2 and the Kalos Pokedex, which is split into Central Kalos, Mountain Kalos and Coastal Kalos based on the location in the region introduced in Pokémon X and Y.
+                <h1 className='text-3xl font-bold	m-5'>The pokedex</h1>
+                <div className='bg-gray-300 bg-opacity-70 p-4 m-2'>
+                    <p>In the video games, whenever a Pokémon is first captured, its data will be added to a player's Pokédex. People who have an Action Replay can use a cheat so they can get all Pokédex entries without even having the Pokémon. In the Pokémon anime, the Pokédex is a comprehensive, electronic, reference encyclopedia, usually referred to in order to deliver information necessary to the plot. There are four differently-numbered Pokédex modes to date: the Kanto Pokédex, introduced in Pokémon Red and Blue; the Johto Pokédex, introduced in Pokémon Gold and Silver; the Hoenn Pokédex, introduced in Pokémon Ruby and Sapphire and expanded upon in Pokémon FireRed and LeafGreen; and the Sinnoh Pokédex, introduced in Pokémon Diamond and Pearl, the Unova Pokédex, introduced in Pokémon Black and White and updated in Pokémon Black 2 and White 2 and the Kalos Pokedex, which is split into Central Kalos, Mountain Kalos and Coastal Kalos based on the location in the region introduced in Pokémon X and Y.
 
                 With each generation of Pokémon games, the Pokédex has more advanced features compared to previous versions. For example, later versions of the Pokédex are able to sort the list of Pokémon based on internal numbering or alphabetical order. However, every version of the Pokédex has the ability to sort the list of Pokémon based on a National Pokédex numbering, as well as the numbering for their own region.
                     
@@ -33,6 +33,8 @@ const pocketMonster = () =>{
                 The National 'Dex was introduced in Pokémon Ruby and Sapphire, allowing the player to record the data of Pokémon not naturally found in Hoenn (other than trading one from Pokémon Colosseum). In Pokémon Ruby and Sapphire, the National 'Dex is obtained simply by trading a Pokémon that is not native to Hoenn, upon which the Pokédex automatically upgrades to the National 'Dex. In Pokémon Emerald, the National 'Dex is obtained automatically after defeating the Elite Four for the first time. In Pokémon FireRed and LeafGreen the National 'Dex is earned by beating the Elite Four and catching a total of 60 Pokémon. In Pokémon Diamond and Pearl, the National 'Dex is obtained by having seen all Pokémon in the Sinnoh Pokédex, excluding Manaphy. In Platinum, you get it after seeing 210 Pokémon in Sinnoh, including Manaphy.
 
                 The Sinnoh Pokédex resembles a Nintendo DS Lite. The touch screen feature in Diamond and Pearl may be used to scroll up and down the list of Pokémon.</p>
+                </div>
+                
         </div>
 
     )
